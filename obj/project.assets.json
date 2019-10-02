@@ -4057,11 +4057,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zver\\Desktop\\Учеба\\Инструментальные средства разработки программного обеспечения\\Решения\\Лабораторная работа 1\\StepOne\\StepOne.csproj",
+      "projectUniqueName": "C:\\Users\\Zver\\Desktop\\StepOne\\StepOne.csproj",
       "projectName": "StepOne",
-      "projectPath": "C:\\Users\\Zver\\Desktop\\Учеба\\Инструментальные средства разработки программного обеспечения\\Решения\\Лабораторная работа 1\\StepOne\\StepOne.csproj",
+      "projectPath": "C:\\Users\\Zver\\Desktop\\StepOne\\StepOne.csproj",
       "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zver\\Desktop\\Учеба\\Инструментальные средства разработки программного обеспечения\\Решения\\Лабораторная работа 1\\StepOne\\obj\\",
+      "outputPath": "C:\\Users\\Zver\\Desktop\\StepOne\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
