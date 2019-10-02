@@ -26,3 +26,17 @@ C:\Users\Zver\Desktop\Учеба\Инструментальные средств
 C:\Users\Zver\Desktop\Учеба\Инструментальные средства разработки программного обеспечения\Решения\Лабораторная работа 1\StepOne\obj\Debug\netcoreapp2.2\StepOne.AssemblyInfo.cs
 C:\Users\Zver\Desktop\Учеба\Инструментальные средства разработки программного обеспечения\Решения\Лабораторная работа 1\StepOne\obj\Debug\netcoreapp2.2\StepOne.dll
 C:\Users\Zver\Desktop\Учеба\Инструментальные средства разработки программного обеспечения\Решения\Лабораторная работа 1\StepOne\obj\Debug\netcoreapp2.2\StepOne.pdb
+c:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\StepOne.deps.json
+C:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\StepOne.runtimeconfig.json
+C:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\StepOne.runtimeconfig.dev.json
+c:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\StepOne.dll
+c:\Users\Zver\Desktop\StepOne\bin\Debug\netcoreapp2.2\StepOne.pdb
+c:\Users\Zver\Desktop\StepOne\obj\Debug\netcoreapp2.2\StepOne.csprojAssemblyReference.cache
+c:\Users\Zver\Desktop\StepOne\obj\Debug\netcoreapp2.2\StepOne.csproj.CoreCompileInputs.cache
+c:\Users\Zver\Desktop\StepOne\obj\Debug\netcoreapp2.2\StepOne.AssemblyInfoInputs.cache
+c:\Users\Zver\Desktop\StepOne\obj\Debug\netcoreapp2.2\StepOne.AssemblyInfo.cs
+c:\Users\Zver\Desktop\StepOne\obj\Debug\netcoreapp2.2\StepOne.dll
+c:\Users\Zver\Desktop\StepOne\obj\Debug\netcoreapp2.2\StepOne.pdb

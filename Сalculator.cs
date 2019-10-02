@@ -171,10 +171,56 @@ public class Calculator {
         resultForDouble = tempX - (tempX * tempY / 100);
         Rez2();
     }
+    public double ForArea(double x, double y)
+    {
+        double S, v, t;
+        v = x;
+        t = y;
+        S = v * t;
+        return S;
+    }
+     public int ForArea(int x, int y)
+    {
+        int S, v, t;
+        v = x;
+        t = y;
+        S = v * t;
+        return S;
+    }
     public void DivisionInterest(double x, double y)
     {
         resultForDouble = x - (x * y / 100);
         Rez2();
+    }
+    public double diffF(double x, double y)
+    {
+        double F1, F2, m, res;
+        const double g = 9.82;
+        m = x;
+        F1 = g * m;
+        m = y;
+        F2 = g * m;
+        res = F1 - F2;
+        if(res < 0)
+        {
+            res *= -1;
+        }
+        return res;
+    }
+    public double diffF(int x, int y)
+    {
+        double F1, F2, m, res;
+        const double g = 9.82;
+        m = Convert.ToDouble(x);
+        F1 = g * m;
+        m = Convert.ToDouble(y);
+        F2 = g * m;
+        res = F1 - F2;
+        if(res < 0)
+        {
+            res *= -1;
+        }
+        return res;
     }
     private void Rez()
     {

@@ -48,6 +48,8 @@ namespace StepOne
                     Console.WriteLine("5) Остаток при делении \n");
                     Console.WriteLine("6) Возведение в степень \n");
                     Console.WriteLine("7) Добавить/вычесть процент от числа \n");
+                    Console.WriteLine("8) Найти площадь прямоугольника \n");
+                    Console.WriteLine("9) Найти разницу между силой притяжения 1 и 2 тела \n");
                     Console.WriteLine("0) Выход");
                     int CalTemp = Convert.ToInt16(Console.ReadLine());
                     switch(CalTemp)
@@ -131,7 +133,22 @@ namespace StepOne
                                     calculator.DivisionInterest(x, y);
                                 }   
                             }
-                            
+                        break;
+                        case 8: 
+                            if(flag){
+                                Console.WriteLine("S = " + calculator.ForArea(x2, y2));
+                            }
+                            else{
+                                Console.WriteLine("S = " + calculator.ForArea(x, y));
+                            }      
+                        break;
+                        case 9:
+                            if(flag){
+                                Console.WriteLine("Diff = " + calculator.diffF(x2, y2));
+                            }
+                            else{
+                                Console.WriteLine("Diff = " + calculator.diffF(x, y));
+                            } 
                         break;
                         case 0:
                         Environment.Exit(0);
