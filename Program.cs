@@ -14,6 +14,7 @@ namespace StepOne
             Console.WriteLine("1 - Использовать калькулятор \n");
             Console.WriteLine("2 - Чтение файла \n");
             Console.WriteLine("3 - Вычисление физических формул \n");
+            Console.WriteLine("4 - Вычисления с кругом \n");
             Console.WriteLine("0 - Выход \n");
             temp = Convert.ToInt32(Console.ReadLine());
             if (temp == 1)
@@ -167,6 +168,23 @@ namespace StepOne
                     break;
                     case 2:
                         Console.WriteLine("Сила притяжения = " + physics.forceOfGravity() + "Н");
+                    break;
+                }
+            }
+            else if(temp == 4)
+            {
+                Circle circle = new Circle();
+                Console.WriteLine("Выберите действие \n");
+                Console.WriteLine("1) Найти площадь круга \n");
+                Console.WriteLine("2) Найти объем круга\n");
+                int tempForCircle = Convert.ToInt16(Console.ReadLine());
+                switch(tempForCircle)
+                {
+                    case 1:
+                        Console.WriteLine("Площадь круга = " + circle.area() + "м^2");
+                    break;
+                    case 2:
+                        Console.WriteLine("Объем круга = " + circle.volume() + "м^3");
                     break;
                 }
             }
