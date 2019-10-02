@@ -13,6 +13,7 @@ namespace StepOne
             Console.WriteLine("Выберите дальнейшее действие \n");
             Console.WriteLine("1 - Использовать калькулятор \n");
             Console.WriteLine("2 - Чтение файла \n");
+            Console.WriteLine("3 - Вычисление физических формул \n");
             Console.WriteLine("0 - Выход \n");
             temp = Convert.ToInt32(Console.ReadLine());
             if (temp == 1)
@@ -48,8 +49,6 @@ namespace StepOne
                     Console.WriteLine("5) Остаток при делении \n");
                     Console.WriteLine("6) Возведение в степень \n");
                     Console.WriteLine("7) Добавить/вычесть процент от числа \n");
-                    Console.WriteLine("8) Найти площадь прямоугольника \n");
-                    Console.WriteLine("9) Найти разницу между силой притяжения 1 и 2 тела \n");
                     Console.WriteLine("0) Выход");
                     int CalTemp = Convert.ToInt16(Console.ReadLine());
                     switch(CalTemp)
@@ -134,24 +133,8 @@ namespace StepOne
                                 }   
                             }
                         break;
-                        case 8: 
-                            if(flag){
-                                Console.WriteLine("S = " + calculator.ForArea(x2, y2));
-                            }
-                            else{
-                                Console.WriteLine("S = " + calculator.ForArea(x, y));
-                            }      
-                        break;
-                        case 9:
-                            if(flag){
-                                Console.WriteLine("Diff = " + calculator.diffF(x2, y2));
-                            }
-                            else{
-                                Console.WriteLine("Diff = " + calculator.diffF(x, y));
-                            } 
-                        break;
                         case 0:
-                        Environment.Exit(0);
+                            Environment.Exit(0);
                         break;
                     }
                     Console.WriteLine("Ещё что-нибудь считать будем?");
@@ -170,8 +153,24 @@ namespace StepOne
                 Reader reader = new Reader();
                 reader.read();
             }
-            else 
+            else if(temp == 3)
             {
+                Physics physics = new Physics();
+                Console.WriteLine("Выберите действие \n");
+                Console.WriteLine("1) Найти путь \n");
+                Console.WriteLine("2) Найти силу притяжения тела\n");
+                int tempForPhysics = Convert.ToInt16(Console.ReadLine());
+                switch(tempForPhysics)
+                {
+                    case 1:
+                        Console.WriteLine("Путь = " + physics.ForArea() + "м");
+                    break;
+                    case 2:
+                        Console.WriteLine("Сила притяжения = " + physics.forceOfGravity() + "Н");
+                    break;
+                }
+            }
+            else {
                 Environment.Exit(0);
             }
             Console.WriteLine("Нажмите любую кнопку для выхода");
