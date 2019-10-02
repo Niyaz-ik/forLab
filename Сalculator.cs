@@ -176,6 +176,7 @@ public class Calculator {
         resultForDouble = x - (x * y / 100);
         Rez2();
     }
+   
     private void Rez()
     {
         Console.WriteLine("Результат : " + result);
